@@ -29,3 +29,12 @@ Desarrollar una billetera digital que permita:
 - Bootstrap para responsividad y UI.
 - jQuery para manipulación del DOM y validaciones.
 - Rama principal: master (o main según corresponda).
+
+## Sobre los commits
+Los commits fueron realizados al final del proyecto, pero los mensajes reflejan el avance progresivo por etapas, ya que se me fue ir haciendo los cambios propgresivos ,tal como lo solicita la rúbrica. Cada commit documenta una funcionalidad específica.
+
+## Cómo probar acceda al ogin con éstas credenciales
+1. Clonar el repositorio
+2. Abrir `login.html` en el navegador
+3. Usuario: `admin` | Contraseña: `1234`
+

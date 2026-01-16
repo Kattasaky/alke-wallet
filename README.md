@@ -38,3 +38,7 @@ Los commits fueron realizados al final del proyecto, pero los mensajes reflejan 
 2. Abrir `login.html` en el navegador
 3. Usuario: `admin` | Contraseña: `1234`
 
+
+<!-- commit: estructura inicial -->
+<!-- commit: estilos CSS iniciales y fondo -->
+<!-- commit: implementación de login -->

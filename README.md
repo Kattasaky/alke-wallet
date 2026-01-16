@@ -43,3 +43,4 @@ Los commits fueron realizados al final del proyecto, pero los mensajes reflejan 
 <!-- commit: estilos CSS iniciales y fondo -->
 <!-- commit: implementación de login -->
 <!-- commit: menú con saldo dinámico -->
+<!-- commit: función de depósito -->

@@ -44,3 +44,4 @@ Los commits fueron realizados al final del proyecto, pero los mensajes reflejan 
 <!-- commit: implementación de login -->
 <!-- commit: menú con saldo dinámico -->
 <!-- commit: función de depósito -->
+<!-- commit: función de envío de dinero -->

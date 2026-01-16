@@ -46,3 +46,4 @@ Los commits fueron realizados al final del proyecto, pero los mensajes reflejan 
 <!-- commit: función de depósito -->
 <!-- commit: función de envío de dinero -->
 <!-- commit: historial de transacciones -->
+<!-- commit: correcciones CSS e imágenes -->

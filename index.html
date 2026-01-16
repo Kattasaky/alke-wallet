@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alke Wallet</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- mi CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Formulario de inicio de sesión-->
+    <form id="loginForm" onsubmit="validarLogin(); return false;">
+        <div class="mb-3">
+            <label for="user" class="form-label">Usuario</label>
+            <!--aca estoy usando label para el form ya que label es un componente de bootstrap-->
+            <input type="text" id="user" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <!--y aca tambien estoy tratando de hacer responsivo el contenido con bootstrap usando la clase form-label-->
+            <label for="pass" class="form-label">Contraseña</label>
+            <input type="password" id="pass" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Ingresar</button> <!---aca use button de bootstrap-->
+    </form>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- mi linkeo a mi JS -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>

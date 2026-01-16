@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Nuestro CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="img/wallet.png" alt="Logo Alke Wallet" width="30" height="30"
+                class="d-inline-block align-text-top">
+            Alke Wallet
+        </a>
+    </nav>
+    <div class="container mt-4">
+        <div class="card">
+            <div class="card-body">
+                <h5>Saldo disponible</h5>
+                <p id="saldo">$0</p> <!-- acá estoy usando id para el saldo asi logro que se actualice-->
+            </div>
+        </div>
+
+        <a href="deposit.html" class="btn btn-success mt-3">Depositar</a>
+        <!---aqui estoy usando botones para la navegación del usuario-->
+        <a href="sendmoney.html" class="btn btn-primary mt-3">Enviar dinero</a>
+        <a href="transactions.html" class="btn btn-secondary mt-3">Historial</a>
+    </div>
+    <!--CDN jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- CDN de Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- linkeo a mi JS -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
